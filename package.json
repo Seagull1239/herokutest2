@@ -4,13 +4,14 @@
   "description": "Software Engineering Evidence Repository - uses MEAN stack",
   "main": "node server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Seagull1239/herokutest2.git"
   },
-  "author": "",
+  "author": "Team18",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Seagull1239/herokutest2/issues"

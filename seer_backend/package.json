@@ -14,7 +14,7 @@
     "api",
     "mongodb"
   ],
-  "author": "bezkoder",
+  "author": "Team18",
   "license": "ISC",
   "dependencies": {
     "body-parse": "^0.1.0",
