@@ -10,7 +10,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --output-path"
+    "postinstall": "ng build --output-path",
+    "heroku-postbuild": "ng build --prod"
   },
   "keywords": [
     "nodejs",
@@ -19,6 +20,11 @@
     "api",
     "mongodb"
   ],
+  "engines":{
+    "node": "12.18.4",
+    "npm": "6.14.6"
+  }
+  ,
   "author": "Team18",
   "license": "ISC",
   "dependencies": {
@@ -37,6 +43,7 @@
     "@angular/platform-browser": "~10.1.5",
     "@angular/platform-browser-dynamic": "~10.1.5",
     "@angular/router": "~10.1.5",
+    "typescript": "~4.0.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
